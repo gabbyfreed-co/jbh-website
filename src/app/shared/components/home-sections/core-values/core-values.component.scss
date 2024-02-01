@@ -1,0 +1,31 @@
+.core-values {
+  width: 100%;
+  padding: 35px 0;
+
+  &__title {
+    text-align: center;
+    font-size: 75px;
+  }
+
+  &__card-container {
+    display: flex;
+    justify-content: center;
+    margin: 75px 0;
+
+    .card {
+      margin: 0 25px;
+      background-color: #ffffffe0;
+    }
+
+    .card-body {
+      justify-content: space-between;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-title {
+      text-align: center;
+      padding: 15px 0px;
+    }
+  }
+}

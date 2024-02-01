@@ -1,0 +1,51 @@
+.services {
+  width: 100%;
+  padding: 35px 0;
+  margin-top: 150px;
+
+  &__title {
+    text-align: center;
+    font-size: 75px;
+  }
+
+  &__subtitle {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+  }
+
+  &__card-container {
+    display: flex;
+    justify-content: center;
+    margin: 25px auto;
+
+    .card {
+      font-size: 1em;
+      overflow: hidden;
+      padding: 15px;
+      border: none;
+      border-radius: .28571429rem;
+      box-shadow: 0 3px 5px 0 #161618, 0 0 0 2px #161618;
+      margin: 50px;
+    }
+
+    .card-block {
+      font-size: 1em;
+      position: relative;
+      margin: 0;
+      padding: 1em;
+      border: none;
+      border-top: 1px solid rgba(34, 36, 38, .1);
+      box-shadow: none;
+      
+    }
+
+    .card-image {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+
+
+}

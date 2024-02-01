@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #161618;
+
+  img {
+    margin-right: 150px;
+  }
+
+  &__title {
+    color: #e7e7e7;
+  }
+}
+
+.copyright {
+  justify-content: center;
+  margin-top: 60px;
+}
